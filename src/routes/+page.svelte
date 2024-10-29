@@ -1,2 +1,6 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script lang="ts">
+    import { Window } from "$lib";
+
+</script>
+
+<Window id="test-window" title="test window" x={150} y={100} w={400} h={300} />
