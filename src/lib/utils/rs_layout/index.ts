@@ -1,1 +1,1 @@
-export {default as Window} from './Window.svelte'
+export {default as WindowManager} from './WindowManager.svelte'
